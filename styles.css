@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap");
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: "Newsreader", Georgia, "Times New Roman", serif;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  max-width: 42rem;
+  margin: 2.5rem auto;
+  padding: 0 1.25rem;
+  text-wrap: pretty;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #000;
+  margin: 1.75rem 0;
+}
