@@ -104,6 +104,14 @@ ol li {
   margin: 1em 0;
 }
 
+@media (max-width: 640px) {
+  body {
+    font-size: 16px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+  }
+}
+
 @media print {
   @page {
     margin: 2.5cm;
