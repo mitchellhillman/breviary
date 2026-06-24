@@ -19,3 +19,13 @@ hr {
   border-top: 1px solid #000;
   margin: 1.75rem 0;
 }
+
+@media print {
+  body {
+    font-size: 10pt;
+  }
+
+  .nav-index {
+    display: none;
+  }
+}
